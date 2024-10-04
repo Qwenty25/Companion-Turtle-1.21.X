@@ -2,6 +2,7 @@ package net.qwenty25.companionturtle;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.qwenty25.companionturtle.block.ModBlocks;
 import net.qwenty25.companionturtle.item.ModItems;
 import org.slf4j.Logger;
 
@@ -38,6 +39,7 @@ public class CompanionTurtle {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -59,6 +61,10 @@ public class CompanionTurtle {
         }
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
             event.accept(ModItems.SPICY_SAUCE);
+            event.accept(ModBlocks.GUACAMOLE_JAR);
+        }
+        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS){
+            event.accept(ModBlocks.GUACAMOLE_JAR);
         }
     }
 

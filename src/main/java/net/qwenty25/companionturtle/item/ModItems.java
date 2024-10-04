@@ -14,6 +14,8 @@ public class ModItems {
     public static final DeferredItem<Item> SPICY_SAUCE = ITEMS.register("spicy_sauce",
             () -> new Item(new Item.Properties()));
 
+
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
