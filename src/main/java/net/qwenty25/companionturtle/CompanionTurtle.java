@@ -61,10 +61,10 @@ public class CompanionTurtle {
         }
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
             event.accept(ModItems.SPICY_SAUCE);
-            event.accept(ModBlocks.GUACAMOLE_JAR);
         }
         if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS){
             event.accept(ModBlocks.GUACAMOLE_JAR);
+            event.accept(ModBlocks.EMPTY_JAR);
         }
     }
 
