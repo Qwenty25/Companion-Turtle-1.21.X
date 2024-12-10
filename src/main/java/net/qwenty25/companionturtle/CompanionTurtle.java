@@ -66,6 +66,9 @@ public class CompanionTurtle {
             event.accept(ModBlocks.GUACAMOLE_JAR);
             event.accept(ModBlocks.EMPTY_JAR);
         }
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
+            event.accept(ModBlocks.TSAVORITE_ORE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
