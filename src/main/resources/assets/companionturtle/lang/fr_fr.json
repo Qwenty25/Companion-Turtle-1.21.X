@@ -5,5 +5,8 @@
   "block.companionturtle.guacamole_jar": "Pot de guacamole",
   "block.companionturtle.empty_jar": "Pot vide",
 
-  "block.companionturtle.tsavorite_ore": "Minerais de tsavorite"
+  "block.companionturtle.tsavorite_ore": "Minerais de tsavorite",
+
+  "creativetab.companionturtle.fun_items": "Items fun",
+  "creativetab.companionturtle.companion_turtle": "Companion turtle"
 }
